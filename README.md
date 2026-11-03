@@ -1,6 +1,6 @@
 # Servidor Intermediario Meta WhatsApp -> Electron (`rd-api`)
 
-Servidor ligero y desacoplado desarrollado en **Node.js**, **Express** y **TypeScript**, diseñado para desplegarse en [Render](https://render.com) en `https://libreriard.onrender.com`.
+Servidor ligero y desacoplado desarrollado en **Node.js**, **Express** y **TypeScript**, diseñado para desplegarse en [Render](https://render.com) en `https://libreriard-q12e.onrender.com`.
 
 Actúa como puente entre los **Webhooks de Meta WhatsApp Cloud API** y una aplicación de escritorio desarrollada en **Electron**, retransmitiendo mensajes y eventos en tiempo real a través de un WebSocket autenticado con Socket.IO.
 

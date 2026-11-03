@@ -7,8 +7,8 @@
 
 ## 1. Información General del Servidor
 
-- **Producción (Render):** `https://libreriard.onrender.com`
-- **WebSocket URL (Producción):** `wss://libreriard.onrender.com`
+- **Producción (Render):** `https://libreriard-q12e.onrender.com`
+- **WebSocket URL (Producción):** `wss://libreriard-q12e.onrender.com`
 - **Desarrollo Local:** `http://localhost:3000`
 - **Protocolo WebSocket:** Socket.IO v4 (`transports: ["websocket", "polling"]`)
 
@@ -162,7 +162,7 @@ export class WhatsAppSocketBridge {
   private serverUrl: string;
   private apiKey: string;
 
-  constructor(serverUrl: string = "https://libreriard.onrender.com", apiKey: string) {
+  constructor(serverUrl: string = "https://libreriard-q12e.onrender.com", apiKey: string) {
     this.serverUrl = serverUrl;
     this.apiKey = apiKey;
   }
